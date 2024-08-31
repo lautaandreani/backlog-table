@@ -1,0 +1,81 @@
+import { Task } from './types'
+
+export const MOCK_TASKS: Task[] = [
+  {
+    id: 'TASK-1a',
+    title: 'Fix login issue',
+    label: 'bug',
+    status: 'inProgress',
+    priority: 'high',
+  },
+  {
+    id: 'TASK-2a',
+    title: 'Implement user profile page',
+    label: 'feature',
+    status: 'todo',
+    priority: 'medium',
+  },
+  {
+    id: 'TASK-3a',
+    title: 'Update API documentation',
+    label: 'documentation',
+    status: 'done',
+    priority: 'low',
+  },
+  {
+    id: 'TASK-4a',
+    title: 'Improve password security',
+    label: 'feature',
+    status: 'inProgress',
+    priority: 'high',
+  },
+  {
+    id: 'TASK-5a',
+    title: 'Remove deprecated endpoints',
+    label: 'bug',
+    status: 'canceled',
+    priority: 'medium',
+  },
+  {
+    id: 'TASK-6a',
+    title: 'Optimize database queries',
+    label: 'none',
+    status: 'todo',
+    priority: 'high',
+  },
+  {
+    id: 'TASK-7a',
+    title: 'Redesign landing page',
+    label: 'feature',
+    status: 'done',
+    priority: 'medium',
+  },
+  {
+    id: 'TASK-8a',
+    title: 'Add unit tests for new features',
+    label: 'none',
+    status: 'inProgress',
+    priority: 'high',
+  },
+  {
+    id: 'TASK-9a',
+    title: 'Refactor authentication module',
+    label: 'feature',
+    status: 'canceled',
+    priority: 'medium',
+  },
+  {
+    id: 'TASK-10a',
+    title: 'Conduct user feedback survey',
+    label: 'none',
+    status: 'done',
+    priority: 'low',
+  },
+  {
+    id: 'TASK-11a',
+    title: 'Fix login issue',
+    label: 'bug',
+    status: 'done',
+    priority: 'high',
+  },
+]
